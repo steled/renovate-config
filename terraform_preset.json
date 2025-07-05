@@ -1,0 +1,30 @@
+{
+  "description": "steled's Terraform preset",
+  "enabledManagers": [
+    "terraform"
+  ],
+  "terraform": {
+    "commitMessageTopic": "Terraform {{depName}}",
+    "managerFilePatterns": [
+      "/\\.tf$/"
+    ],
+    "pinDigests": false
+  },
+  "packageRules": [
+    {
+      "matchManagers": [
+        "terraform"
+      ],
+      "separateMinorPatch": true
+    },
+    {
+      "matchManagers": [
+        "terraform"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true
+    }
+  ]
+}
