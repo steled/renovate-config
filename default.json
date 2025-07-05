@@ -8,9 +8,6 @@
   "labels": [
     "dependencies"
   ],
-  "enabledManagers": [
-    "github-actions"
-  ],
   "github-actions": {
     "managerFilePatterns": [
       "/(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$/",
