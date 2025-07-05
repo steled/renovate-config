@@ -1,8 +1,5 @@
 {
   "description": "steled's Terraform preset",
-  "enabledManagers": [
-    "terraform"
-  ],
   "terraform": {
     "commitMessageTopic": "Terraform {{depName}}",
     "managerFilePatterns": [
