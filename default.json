@@ -1,4 +1,5 @@
 {
+  "description": "steled's default preset",
   "baseBranches": [
     "main"
   ],
