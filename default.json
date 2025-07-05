@@ -8,7 +8,7 @@
     "dependencies"
   ],
   "enabledManagers": [
-    "github-actions",
+    "github-actions"
   ],
   "github-actions": {
     "managerFilePatterns": [
@@ -19,13 +19,13 @@
   "packageRules": [
     {
       "matchManagers": [
-        "github-actions",
+        "github-actions"
       ],
       "separateMinorPatch": true
     },
     {
       "matchManagers": [
-        "github-actions",
+        "github-actions"
       ],
       "matchUpdateTypes": [
         "patch"
