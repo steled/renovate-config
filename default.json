@@ -1,0 +1,35 @@
+{
+  "baseBranches": [
+    "main"
+  ],
+  "dependencyDashboard": true,
+  "labels": [
+    "dependencies"
+  ],
+  "enabledManagers": [
+    "github-actions",
+  ],
+  "github-actions": {
+    "managerFilePatterns": [
+      "/(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$/",
+      "/(^|/)action\\.ya?ml$/"
+    ]
+  },
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions",
+      ],
+      "separateMinorPatch": true
+    },
+    {
+      "matchManagers": [
+        "github-actions",
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true
+    }
+  ]
+}
