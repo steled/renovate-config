@@ -28,7 +28,14 @@
       "matchUpdateTypes": [
         "patch"
       ],
-      "automerge": true
+      "addLabels": ["automerge"],
+      "automerge": true,
+      "automergeType": "pr",
+      "deleteBranchAfterMerge": true,
+      "platformAutomerge": true,
+      "prCreation": "immediate",
+       "reviewers": [],
+      "requiredStatusChecks": null
     }
   ]
 }
