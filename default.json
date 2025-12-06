@@ -26,7 +26,8 @@
         "github-actions"
       ],
       "matchUpdateTypes": [
-        "patch"
+        "patch",
+        "minor"
       ],
       "addLabels": ["automerge"],
       "automerge": true,
