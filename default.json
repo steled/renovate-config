@@ -31,7 +31,7 @@
       "addLabels": ["automerge"],
       "automerge": true,
       "automergeType": "pr",
-      "deleteBranchAfterMerge": true,
+      "deleteBranchAfterMerging": true,
       "platformAutomerge": true,
       "prCreation": "immediate",
        "reviewers": [],
